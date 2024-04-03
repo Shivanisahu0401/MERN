@@ -1,0 +1,41 @@
+/*body{
+    height: 100vh;
+    width:100vw;
+    background-color: aqua;
+}*/
+/*.parent{
+    background-color: rgb(158, 107, 41);
+    height:100%;
+}
+.child{
+    width:50%;
+    min-height: 200px;
+    padding:16px 32px;
+    max-height: 300px;
+    background-color: aquamarine;
+    overflow: scroll;
+}*/
+.c1{
+    ol{
+        background-color: aquamarine;
+    }
+    ul:first-child{
+        background-color: blue;
+    }
+    ul:last-child {
+        background-color: green;
+    }
+    ul:last-child :nth-child(2) {
+        background-color: white;
+        width: 60px;
+    }
+    ul:first-of-child{
+        background-color: black;
+    }
+}
+ol{
+    background-color: blueviolet;
+}
+ul{
+    background-color: bisque;
+}
