@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+    background-color: blueviolet;
+    color: white;
+    height: 800px;
+    width: 800px;
+    text-align: center;
+    padding: 16px;
+    transition-property: height,width;
+transition-duration: 1s;
+transition-timing-function: linear;
+    h2{
+    background-color: black;
+
+    }
+}
+
+
+@media (800px <=width  <=1200px)  
+{
+    .parent{
+        background-color: blue;
+        height: 200px;
+        width: 200px;
+    }
+}    
