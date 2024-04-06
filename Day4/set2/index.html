@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <h3>JS Practise</h3>
+    <button onclick="getInfo(event)">Click</button>
+    <div>
+    <p>
+        first
+    </p>    
+<p>second</p>
+    </div>
+ -->
+<div>
+ <form onsubmit="submitForm(event)">
+    <label>First Name:</label>
+    <input type="text" name="firstname" placeholder="first name" onkeydown="firstNameChange(event)"/><br><br>
+    <label>Last Name:</label>
+    <input type="text" name="lastname" placeholder="last name"/><br><br>
+    <label>Age:</label>
+    <input type="number" name="age"/><br><br>
+    <label>Hobbies:</label><br><br>
+    <label>Web Development</label>
+    <input type="checkbox" name="hobbies" value="webD"/>
+    <label>Sports</label>
+    <input type="checkbox" name="hobbies" value="sports"/>
+    <label>Drawing</label>
+    <input type="checkbox" name="hobbies" value="drawing"/>
+<br><br>
+<button>Submit</button>
+ </form>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
